@@ -1,0 +1,33 @@
+---
+title: Welcome to ESK Project
+description: Get started building your docs site with Starlight.
+template: splash # Remove or comment out this line to display the site sidebar on this page.
+hero:
+  tagline: ESK, made simple.
+  image:
+    file: ../../assets/houston.webp
+  actions:
+    - text: Flashing Guide
+      link: /guides/esk/
+      icon: right-arrow
+    - text: Visit GitHub
+      link: https://github.com/ESK-Project/
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Next steps
+
+<CardGrid stagger>
+	<Card title="Start Here" icon="open-book">
+		Read the prerequisites first, then choose the right package for your device.
+	</Card>
+	<Card title="Flash It" icon="rocket">
+		Follow the flashing guide for AnyKernel3, recovery, or fastboot boot images.
+	</Card>
+	<Card title="Need Help?" icon="warning">
+		Check what info and logs to include when reporting issues.
+	</Card>
+</CardGrid>

@@ -1,0 +1,13 @@
+@import '@fontsource/maple-mono';
+@import '@fontsource/inter';
+
+@layer starlight.custom {
+	:root {
+		--sl-font: 'Inter';
+		--sl-font-mono: 'Maple Mono';
+	}
+
+	:where(code, pre, kbd, samp) {
+		font-family: var(--__sl-font-mono);
+	}
+}
