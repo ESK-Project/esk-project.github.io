@@ -5,6 +5,8 @@ import gruvbox from "starlight-theme-gruvbox";
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://esk-project.github.io',
+	trailingSlash: 'always',
 	integrations: [
 		starlight({
 			plugins: [gruvbox()],
