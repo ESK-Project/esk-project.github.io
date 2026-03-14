@@ -14,19 +14,19 @@ description: Simple guide for downloading, choosing, and flashing ESK kernels.
 
 If this is your first time, read these in order:
 
-1. [Downloads and naming](./esk/downloads-and-naming/)
-2. [Prerequisites](./esk/prerequisites/)
-3. [Choose AnyKernel3 or boot image](./esk/choose-package/)
-4. [Choose kernel flavour](./esk/kernel-flavours/)
-5. [Flashing instructions](./esk/flashing/)
-6. [Reporting issues and risk notes](./esk/reporting-and-risk/)
+1. [Downloads and naming](./downloads-and-naming/)
+2. [Prerequisites](./prerequisites/)
+3. [Choose AnyKernel3 or boot image](./choose-package/)
+4. [Choose kernel flavour](./kernel-flavours/)
+5. [Flashing instructions](./flashing/)
+6. [Reporting issues and risk notes](./reporting-and-risk/)
 
 ## Quick path
 
 If you already know what you need:
 
-- Have root or custom recovery: use [AnyKernel3](./esk/choose-package/).
-- Using fastboot: use a [boot image](./esk/choose-package/).
+- Have root or custom recovery: use [AnyKernel3](./choose-package/).
+- Using fastboot: use a [boot image](./choose-package/).
 - Using a generic build: check the kernel compression format first.
 
 ## Downloads
