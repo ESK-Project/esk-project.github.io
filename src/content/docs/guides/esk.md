@@ -4,7 +4,6 @@ description: Simple guide for downloading, choosing, and flashing ESK kernels.
 ---
 
 :::note[Differences between xaga kernel and generic kernel]
-- Xaga builds include device-specific changes/modules.
 - Xaga releases provide gzip boot images only.
 - Generic builds provide multiple boot image variants for different kernel compression formats.
 - Both xaga and generic builds include stock config spoof.
